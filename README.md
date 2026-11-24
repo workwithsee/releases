@@ -2,9 +2,11 @@
 
 S.E.E. is a self-hosted app for running multi-step workflows, including AI coding agents, across your Git repositories. It runs on your computer and opens in your browser.
 
-Choose the archive for your platform and architecture on the [Releases page](https://github.com/workwithsee/releases/releases). Pre-release downloads are public and require no GitHub account. The application source is private.
+Choose the archive for your platform and architecture on the [Releases page](https://github.com/workwithsee/releases/releases). Pre-release downloads are public and require no GitHub account or signup. The application source is private.
 
 <!-- release-notes:start -->
+Please do not share the pre-release download links.
+
 ## Install
 
 1. Download and extract the installer archive for your platform.
