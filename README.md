@@ -10,7 +10,7 @@ Please do not share the pre-release download links.
 ## Install
 
 <!-- release-notes:linux:start -->
-**Linux** — Download and open the `.flatpak` file in GNOME Software. Choose the **User** source, click **Install**, then click **Open**. If Software does not show Open, launch **S.E.E. Installer** from your applications menu. After setup, launch S.E.E. from your applications menu.
+**Linux** — Download the installer from this release and double-click it. Confirm **Run** when asked. S.E.E. installs for your account and opens when setup finishes.
 <!-- release-notes:linux:end -->
 
 <!-- release-notes:macos:start -->
@@ -32,5 +32,5 @@ Each release includes `SHA256SUMS` and `release-manifest.json`. Use `SHA256SUMS`
 
 ## Platform requirements
 
-- **Linux** uses a glibc-based desktop with GNOME Software, its Flatpak support, and a systemd user session. The installer requires GTK 3, WebKitGTK 4.1, Ayatana AppIndicator, libxdo, curl, and xdg-utils.
+- **Linux** requires glibc 2.39 or newer, GTK 3, curl, xdg-utils, and a systemd user session. Application runtime libraries are included. The download-and-double-click flow is tested on Ubuntu 26.04 with Xfce. The desktop must offer Run for downloaded `.desktop` application launchers. Desktops that open these files as text are unsupported by this installer.
 - **macOS** requires macOS 12 or later. Choose the archive matching your Mac's architecture.
