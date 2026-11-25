@@ -14,7 +14,7 @@ Please do not share the pre-release download links.
 <!-- release-notes:linux:end -->
 
 <!-- release-notes:macos:start -->
-**macOS** — Download and extract the ZIP. Open a terminal in the extracted directory and run `bash install-user.sh` as your regular user. Open S.E.E. from your Applications folder.
+**macOS** — Download and extract the ZIP matching your Mac. Open **S.E.E.app** in Finder and choose **Install**. Choose **Cancel** to leave the installation unchanged. Open S.E.E. from your home folder's Applications directory after installation.
 <!-- release-notes:macos:end -->
 
 The installer sets up S.E.E. for your account without `sudo`. Check the [platform requirements](https://github.com/workwithsee/releases#platform-requirements) before installing.
