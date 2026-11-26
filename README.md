@@ -19,9 +19,9 @@ Please do not share the pre-release download links.
 
 The installer sets up S.E.E. for your account without `sudo`. Check the [platform requirements](https://github.com/workwithsee/releases#platform-requirements) before installing.
 
-## Update manually
+## Update
 
-Finish active work and quit S.E.E. from the tray or menu bar. Download the newer installer and follow the same steps. Your settings and project data are preserved.
+Check for updates in S.E.E.'s settings. If your version has no update option, download and install the latest package once. Your settings and project data are preserved.
 
 ## Verify the download
 
@@ -33,4 +33,4 @@ Each Linux release includes detached OpenPGP signatures for the installer, `SHA2
 ## Platform requirements
 
 - **Linux** requires glibc 2.39 or newer, GTK 3, curl, xdg-utils, and a systemd user session. Application runtime libraries are included. The download-and-double-click flow is tested on Ubuntu 26.04 with Xfce. The desktop must offer Run for downloaded `.desktop` application launchers. Desktops that open these files as text are unsupported by this installer.
-- **macOS** requires macOS 12 or later. Choose the archive matching your Mac's architecture.
+- **macOS** requires macOS 12 or later. Choose the installer matching your Mac's architecture.
