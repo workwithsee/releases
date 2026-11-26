@@ -1,0 +1,22 @@
+
+# Machine-local connections, runtime state, and generated output
+.DS_Store
+Thumbs.db
+target/
+node_modules/
+coverage/
+/.cursor/mcp.json
+/.s_e_e/claude-mcp.json
+/.s_e_e/logs/
+/.s_e_e/.config.lock
+/.s_e_e/.coordination/
+/.s_e_e/planning/.coordination/
+/.s_e_e/knowledge/.coordination/
+/.s_e_e/knowledge/.research-runtime/
+/.s_e_e/.runtime/impact.lock
+/.s_e_e/.runtime/transient.sqlite
+/.s_e_e/.runtime/transient.sqlite-journal
+/.s_e_e/.runtime/transient.sqlite-wal
+/.s_e_e/.runtime/transient.sqlite-shm
+/.s_e_e/**/.*.publish-*.tmp
+/AGENTS.md
