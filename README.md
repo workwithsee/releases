@@ -19,9 +19,9 @@ Please do not share the pre-release download links.
 
 The installer sets up S.E.E. for your account without `sudo`. Check the [platform requirements](https://github.com/workwithsee/releases#platform-requirements) before installing.
 
-## Update
+## Update manually
 
-Check for updates in S.E.E.'s settings. If your version has no update option, download and install the latest package once. Your settings and project data are preserved.
+Finish active work and quit S.E.E. from the tray or menu bar. Download the latest installer from the Releases page and run it for your account. Your settings and project data are preserved.
 
 ## Verify the download
 
