@@ -25,7 +25,11 @@ Finish active work and quit S.E.E. from the tray or menu bar. Download the lates
 
 ## Verify the download
 
+Each release includes `SHA256SUMS` and `release-manifest.json` identifying the exact installer bytes.
+
 Each Linux release includes detached OpenPGP signatures for the installer, `SHA256SUMS`, and `release-manifest.json`, plus `see-linux-signing-key.asc`. The signing key fingerprint is `62BFE8F1FA6C955DDAEA071231C5CE67E7F7CF58`. These signatures verify the downloaded bytes; your desktop may still ask you to confirm Run.
+
+The macOS application and installer are Developer ID signed, notarized by Apple, and stapled.
 
 [S.E.E. website](https://workwithsee.com/) · [License](https://github.com/workwithsee/releases/blob/main/LICENSE)
 <!-- release-notes:end -->
